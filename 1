@@ -1,0 +1,14 @@
+F1: int = 1
+F2: int = 1
+F3: int = 2
+num: int = 0
+print(F1)
+print(F2)
+while num < 10:
+    num += 1
+    F3 = F1 + F2
+    print(F3)
+    F1 = F2 + F3
+    print(F1)
+    F2 = F3 + F1
+    print(F2)
