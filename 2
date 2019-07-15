@@ -1,0 +1,14 @@
+A: int = int(input("Введите первое число: "))
+B: int = int(input("Введите второе число: "))
+V: int = 0
+Q: int = 0
+if A < B:
+    Q = B - A
+    while V < Q + 1:
+        print (A+V)
+        V = V + 1
+if A > B:
+    Q = A - B
+    while V < Q + 1:
+        print (Q + B)
+        Q = Q - 1
